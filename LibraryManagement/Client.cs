@@ -41,6 +41,22 @@ namespace LibraryManagement
             }
         }
 
+        public Accounts Accounts
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Library Library
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public void GetBooks()
         {
             for (int i = 0; i < _library.GetBooks().Count; i++)

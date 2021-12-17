@@ -14,7 +14,15 @@ namespace LibraryManagement
             _users.Add(new Account(2, "Jushkin", AccountRole.Librarian));
             _users.Add(new Account(3, "Alan", AccountRole.Student));
         }
-        
+
+        public Account Account
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public Account GetAccount(int id, Account account)
         {
             if (account.IsAdmin())

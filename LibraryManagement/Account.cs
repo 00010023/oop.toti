@@ -14,7 +14,15 @@ namespace LibraryManagement
             _name = name;
             _role = role;
         }
-        
+
+        public AccountRole AccountRole
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public int GetId()
         {
             return _id;
