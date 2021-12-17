@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace AppointmentSchedule;
+namespace AcademicPerformance;
 
-public class HumanResource
+public class Administrator
 {
     private Teacher _teacher;
     
-    public HumanResource(Teacher teacher)
+    public Administrator(Teacher teacher)
     {
         _teacher = teacher;
     }
@@ -16,12 +15,12 @@ public class HumanResource
     {
         _teacher = teacher;
     }
-    
+
     public List<string> GetEvaluation()
     {
         return _teacher.GetEvaluations();
     }
-    
+
     public void AddEvaluation(string evaluation)
     {
         _teacher.AddEvaluation(evaluation);

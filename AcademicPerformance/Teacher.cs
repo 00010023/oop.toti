@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AppointmentSchedule;
+namespace AcademicPerformance;
 
 public class Teacher
 {
