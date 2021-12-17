@@ -1,4 +1,6 @@
-﻿namespace AppointmentSchedule;
+﻿using System;
+
+namespace AppointmentSchedule;
 
 public class Administrator
 {
@@ -13,7 +15,12 @@ public class Administrator
     {
         _teacher = teacher;
     }
-    
+
+    public List<string> GetEvaluation()
+    {
+        return _teacher.GetEvaluations();
+    }
+
     public void AddEvaluation(string evaluation)
     {
         _teacher.AddEvaluation(evaluation);

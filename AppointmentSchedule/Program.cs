@@ -10,6 +10,6 @@ teacher.AddEvaluation("PhD Physics Science");
 teacher.PrintEvaluations();
 
 var hr = new HumanResource(teacher);
-Console.WriteLine("\nHR's Perspective");
+Console.WriteLine("\nHuman Resource's Perspective");
 hr.RemoveEvaluation("PhD Physics Science");
 hr.PrintEvaluations();

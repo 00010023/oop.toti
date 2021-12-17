@@ -1,4 +1,7 @@
-﻿namespace AppointmentSchedule;
+﻿using System;
+using System.Collections.Generic;
+
+namespace AppointmentSchedule;
 
 public class HumanResource
 {

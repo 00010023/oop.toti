@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppointmentSchedule.Teacher">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAATIAIAAAAQAAQAAAAAAAAEABBAAiAAIAAAAAAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Administrator" />
+      <Property Name="HumanResource" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AppointmentSchedule.HumanResource">
+    <Position X="7.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAAIQgAAAAAAAAAAAAEAAAgAAAAAAAAAA=</HashCode>
+      <FileName>HumanResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppointmentSchedule.Administrator">
+    <Position X="7.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAAIQgAAAAAAAAAAAAEAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

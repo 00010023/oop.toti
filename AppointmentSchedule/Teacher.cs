@@ -1,4 +1,7 @@
-﻿namespace AppointmentSchedule;
+﻿using System;
+using System.Collections.Generic;
+
+namespace AppointmentSchedule;
 
 public class Teacher
 {
@@ -10,7 +13,23 @@ public class Teacher
         _evaluations = new List<string>();
         _goals = new List<string>();
     }
-    
+
+    public Administrator Administrator
+    {
+        get => default;
+        set
+        {
+        }
+    }
+
+    public HumanResource HumanResource
+    {
+        get => default;
+        set
+        {
+        }
+    }
+
     public List<string> GetEvaluations()
     {
         return _evaluations;

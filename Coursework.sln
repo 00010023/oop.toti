@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagement", "LibraryManagement\LibraryManagement.csproj", "{5B23D012-6561-4597-85A3-23AA4D2D4E0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagement", "LibraryManagement\LibraryManagement.csproj", "{5B23D012-6561-4597-85A3-23AA4D2D4E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentSchedule", "AppointmentSchedule\AppointmentSchedule.csproj", "{5034009A-242A-4D5E-AB9B-9EBF7FE64DB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentSchedule", "AppointmentSchedule\AppointmentSchedule.csproj", "{5034009A-242A-4D5E-AB9B-9EBF7FE64DB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademicPerformance", "AcademicPerformance\AcademicPerformance.csproj", "{FA3F6E85-BCD9-4FF9-89F0-A8BACF7AFC25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademicPerformance", "AcademicPerformance\AcademicPerformance.csproj", "{FA3F6E85-BCD9-4FF9-89F0-A8BACF7AFC25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4711EE1-5574-42B2-9C3E-85C09C53D262}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
