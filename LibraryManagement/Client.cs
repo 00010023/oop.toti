@@ -33,6 +33,14 @@ namespace LibraryManagement
             _library.AddBook("The Hobbit", "J.R.R. Tolkien", "43221323bhbj23bhbhfb", _account);
         }
 
+        public Account Account
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public void GetBooks()
         {
             for (int i = 0; i < _library.GetBooks().Count; i++)

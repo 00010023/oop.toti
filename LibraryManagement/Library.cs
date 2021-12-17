@@ -13,6 +13,14 @@ namespace LibraryManagement
             _books = new List<Book>();
         }
 
+        public Book Book
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public void AddBook(string title, string author, string isbn, Account account)
         {
             if (account.IsAdmin())
