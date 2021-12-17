@@ -1,2 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibraryManagement.Client">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAQAAACCAAAAASAAAAAACgEAAEAAAAAEA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Account" />
+      <Property Name="Accounts" />
+      <Property Name="Library" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibraryManagement.Library">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAAAEAAABAACAAAAACAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Library.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Book" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibraryManagement.Book">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQIAAAAAEAABAAAAAAAAAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryManagement.Accounts">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAABAAAAAAAIAAAAACAEAAAEA=</HashCode>
+      <FileName>Accounts.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Account" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibraryManagement.Account">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAEAAAAAAAAAgABAAAAACAAAAAAAAAABQAIABAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AccountRole" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="LibraryManagement.AccountRole">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccountRole.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
